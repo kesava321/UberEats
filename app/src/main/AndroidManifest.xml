@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CustomerMainActivity" />
+        <activity
+            android:name=".NavDrawerNewActivity"
+            android:label="@string/title_activity_nav_drawer_new"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".SignInActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

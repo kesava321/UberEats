@@ -18,7 +18,7 @@ public class SignInActivity extends AppCompatActivity {
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), CustomerMainActivity.class);
+                Intent intent = new Intent(getApplicationContext(), NavDrawerNewActivity.class);
                 startActivity(intent);
 
         }
